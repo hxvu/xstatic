@@ -1,0 +1,11 @@
+{"English", "xstatic_en" },
+{"Deutsch", "xstatic_de" },
+{"Fran\347ais", "xstatic_fr" },
+{"Espa\361ol", "xstatic_es" },
+{"Italiano", "xstatic_it" },
+{"Bahasa Indonesia", "xstatic_id" },
+{"Chinese Simplified", "xstatic_zh-CHS" },
+{"Chinese Traditional", "xstatic_zh-CHT" },
+{"Japanese", "xstatic_ja" },
+{"Korean", "xstatic_ko" },
+

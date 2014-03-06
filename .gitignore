@@ -1,0 +1,32 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Ignore backups
+*~
+*.bak
+
+# Ignore the following directories
+build/
+build32/
+build64/
+bin/
+html/
+
+# Ignore cscope and ctags files, and our db files
+cscope.files
+cscope.out
+tags
+*.db
+
+
