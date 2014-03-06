@@ -1,7 +1,7 @@
 
 /*
- * CodeQuery
- * Copyright (C) 2013 ruben2020 https://github.com/ruben2020/
+ * XStatic
+ * Copyright (C) 2014 H3xV13w https://github.com/hxvu/xstatic
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,15 +22,15 @@
 #ifndef _SWVER_H
 #define _SWVER_H
 
-#define XSTATIC_SW_VERSION      "CodeQuery v0.11"
+#define XSTATIC_SW_VERSION      "XStatic V 0.1"
 #define XSTATIC_SW_VERSION_WEBSITE      "<p>"\
 	XSTATIC_SW_VERSION \
 	"</p>"\
-        "<p><a href=\"http://www.HxStatic.com/\">TBD Official Website</a></p>"
+        "<p><a href=\"http://www.hxspace.com/xstatic\">TBD Official Website</a></p>"
 
 #define XSTATIC_SW_LICENSE  \
 	"Copyright (C) 2014 HxView\n\n" \
-        "Website: https://foo.bar.com\n\n" \
+        "Website: https://www.hxspace.com/xstatic\n\n" \
         "TBD\n\n"
 
 #define XSTATIC_SW_LICENSE_PARA ""
