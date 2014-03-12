@@ -77,11 +77,11 @@ translations/xstatic_zh-CHT.ts
   # note that it's Qt4, not QT4 or qt4
   FIND_PACKAGE( Qt4 REQUIRED )
   FIND_PACKAGE( Sqlite REQUIRED)
-  FIND_PACKAGE( Lemon REQUIRED)
+  #FIND_PACKAGE( Lemon REQUIRED)
   
   # add some useful macros and variables
   # (QT_USE_FILE is a variable defined by FIND_PACKAGE( Qt4 ) that contains a path to CMake script)
-  INCLUDE( ${QT_USE_FILE} ${LEMON_INCLUDE_DIR} )
+  INCLUDE( ${QT_USE_FILE} ) #${LEMON_INCLUDE_DIR} )
 
   QT4_ADD_TRANSLATION( QM ${XSTATIC_TRANS} )  
   
@@ -112,7 +112,7 @@ translations/xstatic_zh-CHT.ts
   # we need this to be able to include headers produced by uic in our code
   # (CMAKE_BINARY_DIR holds a path to the build directory, while INCLUDE_DIRECTORIES() works just like INCLUDEPATH from qmake)
   INCLUDE_DIRECTORIES( ${SQLITE_INCLUDE_DIR} )
-  INCLUDE_DIRECTORIES( ${LEMON_INCLUDE_DIR} )
+  #INCLUDE_DIRECTORIES( ${LEMON_INCLUDE_DIR} )
   INCLUDE_DIRECTORIES( ${CMAKE_CURRENT_BINARY_DIR} )
   INCLUDE_DIRECTORIES( "." )
   INCLUDE_DIRECTORIES( "./translations" )
@@ -127,7 +127,8 @@ else()
   add_executable( xstatic ${XSTATIC_SRCS} ${XSTATIC_MOC_SRCS} ${XSTATIC_RC_SRCS} ${XSTATIC_UI_HDRS} ${QM} )
 endif()
 
-  target_link_libraries( xstatic ${QT_LIBRARIES} ${SQLITE_LIBRARIES} ${LEMON_LIBRARIES} sqlquery_lib small_lib cqshowgraph)
+  #target_link_libraries( xstatic ${QT_LIBRARIES} ${SQLITE_LIBRARIES} ${LEMON_LIBRARIES} sqlquery_lib small_lib cqshowgraph)
+  target_link_libraries( xstatic ${QT_LIBRARIES} ${SQLITE_LIBRARIES} sqlquery_lib small_lib cqshowgraph)
   
   install(TARGETS xstatic RUNTIME DESTINATION bin)
 

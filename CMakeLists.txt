@@ -24,7 +24,7 @@ add_subdirectory( "showgraph" )
 add_subdirectory( "gui" )
 
 if (UNIX)
-  SET(CMAKE_INCLUDE_PATH "/usr/local/include/lemon")
+  #SET(CMAKE_INCLUDE_PATH "/usr/local/include/lemon")
   SET(CMAKE_LIBRARY_PATH "/usr/local/lib")
 
   if( CMAKE_SIZEOF_VOID_P EQUAL 8 )

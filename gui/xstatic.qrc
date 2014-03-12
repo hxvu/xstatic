@@ -24,16 +24,6 @@
     <file>images/sources.png</file>
     <file>images/sinks.png</file>
     <file>images/find_mw.png</file>
-    <file>../build/gui/xstatic_de.qm</file>
-    <file>../build/gui/xstatic_en.qm</file>
-    <file>../build/gui/xstatic_es.qm</file>
-    <file>../build/gui/xstatic_fr.qm</file>
-    <file>../build/gui/xstatic_id.qm</file>
-    <file>../build/gui/xstatic_it.qm</file>
-    <file>../build/gui/xstatic_ja.qm</file>
-    <file>../build/gui/xstatic_ko.qm</file>
-    <file>../build/gui/xstatic_zh-CHS.qm</file>
-    <file>../build/gui/xstatic_zh-CHT.qm</file>
   </qresource>
 </RCC>
 
